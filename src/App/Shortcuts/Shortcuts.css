@@ -1,0 +1,13 @@
+#shortcuts {
+    margin: 10px auto;
+}
+
+#shortcuts .pure-form {
+    width: 300px;
+    margin: 10px auto;
+}
+
+#shortcuts .pure-form input {
+    width: 90px;
+    margin: 0 5px;
+}

@@ -1,0 +1,45 @@
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -10px;
+}
+
+.push {
+    height: 10px;
+}
+
+#footer {
+    height: 10px;
+}
+
+#footer .line-strip {
+    width: 100%;
+    height: 10px;
+    bottom: 0;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f79239+1,f79239+50,0a4595+50,0a4595+100 */
+    background: #f79239; /* Old browsers */
+    background: -moz-linear-gradient(left, #f79239 1%, #f79239 50%, #0a4595 50%, #0a4595 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #f79239 1%,#f79239 50%,#0a4595 50%,#0a4595 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #f79239 1%,#f79239 50%,#0a4595 50%,#0a4595 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f79239', endColorstr='#0a4595',GradientType=1 ); /* IE6-9 */
+}
+
+.pure-g {
+    text-align: center;
+}
+
+.button-large {
+    font-size: 110%;
+}
+.pure-button-primary {
+    background: #0a4595;
+    color: #ffffff;
+}
+
+.pure-button-secondary {
+    background: #f79239;
+    color: #ffffff;
+}

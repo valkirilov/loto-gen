@@ -1,0 +1,39 @@
+#draws .list-draws .list-draw {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#draws .list-draws .list-draw .ball {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: #0a4595;
+    border-radius: 50%;
+    float: left;
+    margin: 4px 2px;
+}
+#draws .list-draws .list-draw .ball > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#draws .list-draws .list-draw .ball > div > span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 22.8571428571px;
+    height: 22.8571428571px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

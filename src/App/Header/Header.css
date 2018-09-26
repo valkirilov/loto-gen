@@ -1,0 +1,9 @@
+#header {
+
+}
+
+#header .logo {
+    margin: 50px auto;
+    position: relative;
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+#draws {
+    margin: 30px auto 50px auto;
+}
+
+#draws .list-draws {
+}
+
+#draws .list-draws li {
+    list-style: none;
+    clear: both;
+}
+
+#draws .list-draws li:nth-child(odd) .list-draw .ball {
+    background: linear-gradient(to right, #0c4da5, #0a4595);
+}
+#draws .list-draws li:nth-child(even) .list-draw .ball {
+    background: linear-gradient(to right, #fca04f, #f79239);
+}

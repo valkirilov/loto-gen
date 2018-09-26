@@ -1,0 +1,133 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -10px;
+  }
+
+#header {
+
+}
+
+#header .logo {
+    margin: 50px auto;
+    position: relative;
+    text-align: center;
+}
+
+#shortcuts {
+    margin: 10px auto;
+}
+
+#shortcuts .pure-form {
+    width: 300px;
+    margin: 10px auto;
+}
+
+#shortcuts .pure-form input {
+    width: 100px;
+}
+
+#draws {
+    margin: 30px auto 50px auto;
+}
+
+#draws .list-draws {
+
+}
+
+#draws .list-draws li {
+    list-style: none;
+    clear: both;
+}
+
+#draws .list-draws .list-draw {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#draws .list-draws .list-draw .ball {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: #0a4595;
+    border-radius: 50%;
+    float: left;
+    margin: 4px 2px;
+}
+#draws .list-draws .list-draw .ball > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#draws .list-draws .list-draw .ball > div > span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 22.8571428571px;
+    height: 22.8571428571px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#draws .list-draws li:nth-child(odd) .list-draw .ball {
+    background: linear-gradient(to right, #0c4da5, #0a4595);
+}
+#draws .list-draws li:nth-child(even) .list-draw .ball {
+    background: linear-gradient(to right, #fca04f, #f79239);
+}
+
+.push {
+    height: 10px;
+}
+
+#footer {
+    height: 10px;
+}
+
+#footer .line-strip {
+    width: 100%;
+    height: 10px;
+    bottom: 0;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f79239+1,f79239+50,0a4595+50,0a4595+100 */
+    background: #f79239; /* Old browsers */
+    background: -moz-linear-gradient(left, #f79239 1%, #f79239 50%, #0a4595 50%, #0a4595 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #f79239 1%,#f79239 50%,#0a4595 50%,#0a4595 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #f79239 1%,#f79239 50%,#0a4595 50%,#0a4595 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f79239', endColorstr='#0a4595',GradientType=1 ); /* IE6-9 */
+}
+
+.pure-g {
+    text-align: center;
+}
+
+.button-large {
+    font-size: 110%;
+}
+.pure-button-primary {
+    background: #0a4595;
+    color: #ffffff;
+}
+
+.pure-button-secondary {
+    background: #f79239;
+    color: #ffffff;
+}
